@@ -102,23 +102,6 @@ Principally the project goal is distribuite by:
 
 Additionally, within the folder, you will find a subfolder named `Simulation_Data` where the simulation results for Task_1 and Task_2 are stored.
 
----
-Optimal_Control_of_a_Flexible-Robotic-Arm/
-│
-├── code/
-│   ├── main.py
-│   ├── flex_arm_parameters.py
-│   ├── flex_arm_dynamics.py
-│   ├── flex_arm_trajectory_generation.py
-│   ├── flex_arm_trajectory_tracking.py
-│   ├── flex_arm_animation.py
-│   ├── flex_arm_cost.py
-│   ├── flex_arm_plot.py
-│   └── simulation_data_handler.py
-│
-├── Animation/
-├── report/
-└── requirements.txt
 
 ---
 ---
@@ -231,27 +214,38 @@ Each experiment shows the animation of the pendulum motion.
 
 The system starts exactly from the reference initial condition.
 
-<div align="center">
-Task 2 – Newton’s Method 	Task 3 – LQR	Task 4 – MPC
-<img src="Animation\cs_w3p\None\T2\Gif_t2_with_none.gif" width="260">	<img src="Animation\cs_w3p\None\T3\Gif_t3_with_none.gif" width="260">	<img src="Animation\cs_w4p\None\T4\Gif_t4_with_none.gif" width="260">
-</div>
-
+<p align="center">
+  <img src="Animation/cs_w3p/None/T2/Gif_t2_with_none.gif" width="260" alt="Task 2 – Newton’s Method">
+  <img src="Animation/cs_w3p/None/T3/Gif_t3_with_none.gif" width="260" alt="Task 3 – LQR">
+  <img src="Animation/cs_w4p/None/T4/Gif_t4_with_none.gif" width="260" alt="Task 4 – MPC">
+</p>
+<p align="center">
+  Task 2 – Newton’s Method &nbsp;&nbsp;|&nbsp;&nbsp; Task 3 – LQR &nbsp;&nbsp;|&nbsp;&nbsp; Task 4 – MPC
+</p>
 --- 
 ## Experiment 2 – Initial State Perturbation
 
 A perturbation is applied to the initial state to test robustness.
 
-<div align="center">
-Task 2 – Newton’s Method	Task 3 – LQR	Task 4 – MPC
-<img src="Animation\cs_w3p\Pertubation\T2\Gif_t2_with_pert.gif" width="260">	<img src="Animation\cs_w3p\Pertubation\T3\Gif_t3_with_pert.gif" width="260">	<img src="Animation\cs_w3p\Pertubation\T4\Gif_t4_with_pert.gif" width="260">
-</div>
+<p align="center">
+  <img src="Animation/cs_w3p/Pertubation/T2/Gif_t2_with_pert.gif" width="260" alt="Task 2 – Newton’s Method">
+  <img src="Animation/cs_w3p/Pertubation/T3/Gif_t3_with_pert.gif" width="260" alt="Task 3 – LQR">
+  <img src="Animation/cs_w3p/Pertubation/T4/Gif_t4_with_pert.gif" width="260" alt="Task 4 – MPC">
+</p>
+<p align="center">
+  Task 2 – Newton’s Method &nbsp;&nbsp;|&nbsp;&nbsp; Task 3 – LQR &nbsp;&nbsp;|&nbsp;&nbsp; Task 4 – MPC
+</p>
 
 ---
 ## Experiment 3 – Mid-Simulation Perturbation
 
 An additional disturbance is injected halfway through the simulation.
 
-<div align="center">
-Task 2 – Newton’s Method	Task 3 – LQR	Task 4 – MPC
-<img src="Animation\cs_w3p\Extra_mid\T2\Gif_t2_with_extra.gif" width="260">	<img src="Animation\cs_w3p\Extra_mid\T2\Gif_t3_with_extra.gif" width="260">	<img src="Animation\cs_w3p\Extra_mid\T2\Gif_t4_with_extra.gif" width="260">
-</div>
+<p align="center">
+  <img src="Animation/cs_w3p/Extra_mid/T2/Gif_t2_with_extra.gif" width="260" alt="Task 2 – Newton’s Method">
+  <img src="Animation/cs_w3p/Extra_mid/T3/Gif_t3_with_extra.gif" width="260" alt="Task 3 – LQR">
+  <img src="Animation/cs_w3p/Extra_mid/T4/Gif_t4_with_extra.gif" width="260" alt="Task 4 – MPC">
+</p>
+<p align="center">
+  Task 2 – Newton’s Method &nbsp;&nbsp;|&nbsp;&nbsp; Task 3 – LQR &nbsp;&nbsp;|&nbsp;&nbsp; Task 4 – MPC
+</p>
